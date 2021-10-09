@@ -1,0 +1,121 @@
+.main {
+    width: 30%;
+}
+
+.nav .text-secondary {
+    /* padding-right: 100px; */
+    padding: 0 85px;
+    padding-top: 10px;
+    font-size: xx-large;
+}
+
+nav.nav.navbar-toggler {
+    align-items: center;
+    margin-left: 70px !important;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    margin-top: 10px;
+    background-color: rgb(243, 241, 241);
+    border-radius: 8px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    color: rgb(92, 91, 91);
+    top: 10px;
+}
+
+.status {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.highlight {
+    text-decoration: underline green;
+    text-decoration-thickness: 10%;
+}
+
+.card-view {
+    background-color: rgb(243, 241, 241);
+    height: 230px;
+}
+
+.row .card-display {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;                          
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.alert.alert-danger {
+    margin: 10px;
+    width: 89px;
+    height: 28px;
+    padding: inherit;
+    color: red;
+    font-weight: 700;
+    font-size: 16px !important;
+}
+
+.col-4.padi-cg {
+    padding: 0 !important;
+}
+
+.col-sm-12.col-md-4 {
+    margin: 5px 0 !important;
+}
+
+nav div {
+    display: inline-block;
+}
+
+nav .h5 {
+    width: 300px;
+}
+
+/* nav .main {
+    width: 600px !important;
+} */
+
+.status-active {
+    display: inline-block;
+    border-bottom: solid 6px rgb(5, 202, 5);
+    padding: 0 10px;
+}
+
+.status div {
+    text-align: center;
+}
+
+@media(min-width: 800px){
+    input.form-control{
+        width: 450px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav .main {
+        width: 100%;
+    }
+    nav .main .form-group {
+        width: 100%;
+    }
+    .extra-pad-space{
+        padding-right: 0px !important;
+        padding-left: 9px !important;
+    }
+}

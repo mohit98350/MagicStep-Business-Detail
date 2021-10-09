@@ -1,0 +1,84 @@
+body{
+  background-color: #e4e4e4 !important; 
+}
+
+
+/* Invoice Navbar section */
+.invoice{
+  /* width: 1300px; */
+  background-color: #e4e4e4;
+}
+.bar-code {
+  font-family: 'Libre Barcode 39';font-size: 70px;
+  /* background-image: url("../img/Bar_backround.jpeg");
+  background-size: cover; */
+}
+input{
+  height: 40px;
+  border-radius: 8px;
+}
+::placeholder{
+  font-size: 22px;
+  padding-left: 20px;
+  
+}
+
+/* Invoice mobile checkout section */
+.plus-minus-btn{
+  border: none;
+}
+span{
+  color: #656565;
+}
+.phone-checkout{
+  background-color: #FFFFFF;
+  width: 450px;
+  height: 200px;
+  border-radius:10px;
+}
+.product-total{
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  width:300px;
+  height: 300px;
+  border-radius: 10px;
+  position: relative;
+}
+.product-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80% !important;
+  height: 70%;
+  text-align: left !important;
+}
+.margin-class{
+  width: 50%;
+  margin-right: 108px;
+}
+
+.extra-button-text{
+  font-size: 23px !important;
+  border-radius: 10px !important;
+}
+.extra-button-text-color{
+  background-color: #2ECC71 !important;
+  padding: 15px 18px 15px 18px !important;
+  border-radius: 10px !important;
+}
+
+@media only screen and (max-width: 600px) {
+ .invoice input{
+ display:none;
+}
+.product-total{
+  display:none;
+}
+}
+
+@media only screen and (max-width : 800px){
+  .phone-checkout{
+    width: 320px;
+  }
+}

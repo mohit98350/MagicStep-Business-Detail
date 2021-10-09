@@ -1,0 +1,182 @@
+/* Nav Styles */
+
+.nav-item{
+    text-decoration: none;
+}
+
+.nav-back-style{
+    background-color: #EFEFEF; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col-align{
+    text-align: right !important;
+}
+
+.Controlpanelbg{
+    background-color: #EFEFEF; 
+}
+.proimg{
+    margin-left: 17%;
+}
+
+.proimg1{
+    margin-left: 10%;
+}
+.pendingorder{
+    margin-left: 25px;
+}
+.porder{
+    margin-top:100px;
+}
+p{
+    text-align: center;
+    font-size: smaller;
+}
+
+.mainpic{
+    position: absolute;
+    margin-left: 500px;
+    margin-top:-280px
+}
+img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.nav-type{
+    list-style-type: none;
+}
+
+.extra-btn-color{
+    border-color: #2ECC71 !important;
+    color: #2ECC71 !important;
+}
+
+.extra-btn-color:hover{
+    background-color: #2EEC71 !important;
+    color: #ffffff !important;
+}
+
+.extra-img-adjust{
+    max-width: 100% !important;
+}
+
+.fa-color{
+    color:black;
+}
+
+.extra-width-img{
+    height: 400px !important;
+}
+
+.nav-cart-space{
+    margin-right: 120px;
+}
+.nav-align{
+    text-align: left !important;
+}
+
+.fa-color-5{
+    color: #2ECC71;
+}
+
+.form-size{
+    width: 50%;
+}
+
+.extra-space-div{
+    height: 120px; 
+    width: 130px;
+}
+
+.extra-space-img{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 12px;
+}
+
+
+@media(min-width: 960px){
+    .fa-color-front{
+        display: none !important;
+    }
+}
+
+@media(max-width: 960px){
+    
+    .nav-back-style{
+        background-color: #EFEFEF; 
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+    }
+    .mob-color{
+        color: black !important;
+    }
+    .fa-color{
+        color: black;
+    }
+    .extra-fa-display{
+        display: none !important;
+    }
+    .nav-button-mob{
+        display: none !important;
+    }
+    .form-size{
+        width: 100%;
+        border-radius: 25px !important;
+        padding-top: 15px;
+    }
+    .fa-color{
+        display: none !important;
+    }
+    .fa-color-front-loc{
+        display: none !important;
+    }
+    .align-left{
+        text-align: center !important;
+    }
+    .extra-img-mob-adjust{
+        width: 100% !important;
+    }
+    .mainpic{
+        display: none !important;
+    }
+
+}
+#heading{
+    padding-top: 10px;
+    font-size: large;
+    color: white;
+    }
+
+/* End Nav Styles */
+
+/* specific-product */
+
+.middle img {
+    width: 82%;
+}
+
+.middle button{
+    margin-top: 11%;
+    font-size: 25px;
+    padding: 2px 25px;
+    font-weight: 600;
+    border-radius: 15px;
+}
+.middle-img{
+    position: relative;
+}
+.middle-img .fa-heart { 
+    position: absolute; 
+    top: 30px;
+    right: 40px; 
+}
+.middle-img .fa-share{
+    position: absolute;
+    bottom: 30px;
+    right: 40px; 
+}
+
+
+/* End Specific Product */
