@@ -3,7 +3,9 @@
   padding: 0;
  
 }
-
+.container{
+  padding: 0px 0px!important;
+}
 .text{
   margin-left: 40px;
 }
