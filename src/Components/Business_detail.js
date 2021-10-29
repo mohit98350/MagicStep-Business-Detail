@@ -144,14 +144,19 @@ const Business_detail = () => {
                     </div>
 
                   </InputGroup>
-                  
-                </Form.Group>
                 
-
-              </Form>
-             < div class="icon float-right form-group">
+      
+                 
+                  < div class="icon float-right pt-2 form-group">
                   <h3><button style={{ border: 'none', background: 'transparent' }}><i class="fa fa-arrow-right bg-success text-white pl-3 pr-3 pt-3 pb-3 mt-2 rounded-circle" aria-hidden="true"></i></button></h3>
                 </div>
+                </Form.Group>
+               
+
+              </Form>
+             {/* < div class="icon float-right form-group">
+                  <h3><button style={{ border: 'none', background: 'transparent' }}><i class="fa fa-arrow-right bg-success text-white pl-3 pr-3 pt-3 pb-3 mt-2 rounded-circle" aria-hidden="true"></i></button></h3>
+                </div> */}
 
             </div>
           </div>

@@ -4,7 +4,7 @@
  
 }
 .container{
-  padding: 0px 0px!important;
+  padding: 0px 0px!important  ;
 }
 .text{
   margin-left: 40px;
@@ -57,7 +57,7 @@
 
 }
 .description{
-  height: 698px;
+  height: 767px;
   padding: 20px;
   border-radius: 10px;
   border-color: #E4E4E4;
