@@ -42,7 +42,7 @@ const Business_detail = () => {
             <div className="description border m-auto bg-white extra-desk-view position-absolute">
 
               <div className="upload-profile-img border border-white position-absolute ">
-                <div className="imagePreview">
+                <div className="proimagePreview">
                   {ProimagePreview ? <img src={ProimagePreview} /> : ''}
                 </div>
                 <h5 style={{ padding: 10 }} varient="secondary" ><b>Add Profile Image/Logo</b></h5>

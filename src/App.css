@@ -25,6 +25,15 @@
 
 
 }
+.proimagePreview img{
+  position: absolute;
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px
+
+
+}
 /* added for absoulte */
 .extra-desk-view{
  margin-left: 135px!important;
